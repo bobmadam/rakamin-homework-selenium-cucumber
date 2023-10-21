@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="17.735" tests="8" skipped="0" failures="0" errors="0">
-<testcase classname="Add To Cart aplikasi saucedemo" name="Add product to cart" time="3.245">
+<testsuite name="Cucumber" time="15.72" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Add To Cart aplikasi saucedemo" name="Add product to cart" time="2.76">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -12,7 +12,7 @@ And User click add to cart..................................................pass
 Then Button change to remove................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Add To Cart aplikasi saucedemo" name="Remove product from cart" time="1.936">
+<testcase classname="Add To Cart aplikasi saucedemo" name="Remove product from cart" time="1.59">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -26,7 +26,7 @@ And User Click button remove................................................pass
 Then Button change to add to cart...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checkout aplikasi saucedemo" name="Fill all field in Your information checkout" time="2.547">
+<testcase classname="Checkout aplikasi saucedemo" name="Fill all field in Your information checkout" time="2.015">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -47,7 +47,7 @@ And click continue..........................................................pass
 Then Appear checkout overview...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checkout aplikasi saucedemo" name="No Fill field last name in Your information checkout" time="2.328">
+<testcase classname="Checkout aplikasi saucedemo" name="No Fill field last name in Your information checkout" time="1.878">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -67,7 +67,7 @@ And click continue..........................................................pass
 Then Show error message.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Page Aplikasi Sauce Demo" name="Success Login" time="1.885">
+<testcase classname="Login Page Aplikasi Sauce Demo" name="Success Login" time="1.719">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -76,7 +76,7 @@ And Click login button......................................................pass
 Then User is on products page...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Page Aplikasi Sauce Demo" name="Failed Login" time="1.67">
+<testcase classname="Login Page Aplikasi Sauce Demo" name="Failed Login" time="1.288">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -85,7 +85,7 @@ And Click login button......................................................pass
 Then User get error message.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Your Cart aplikasi saucedemo" name="Get List your cart" time="1.851">
+<testcase classname="Your Cart aplikasi saucedemo" name="Get List your cart" time="1.865">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
@@ -99,7 +99,7 @@ And Click cart icon.........................................................pass
 Then Appear list your cart..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Your Cart aplikasi saucedemo" name="Remove list from your cart" time="1.998">
+<testcase classname="Your Cart aplikasi saucedemo" name="Remove list from your cart" time="2.369">
 <system-out><![CDATA[
 Given Halaman login sauce demo..............................................passed
 When Input Username.........................................................passed
